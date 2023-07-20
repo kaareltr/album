@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-body {
+.album {
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -90,14 +90,22 @@ i {
 }
 
 #p1 {
-  z-index: 3;
+  z-index: 5;
 }
 
 #p2 {
-  z-index: 2;
+  z-index: 4;
 }
 
 #p3 {
+  z-index: 3;
+}
+
+#p4 {
+  z-index: 2;
+}
+
+#p5 {
   z-index: 1;
 }
 
@@ -114,7 +122,61 @@ i {
 }
 
 #f2 {
+  background-image: url("Photos/aeroklubi 5.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#b2 {
+  background-image: url("Photos/aeroklubi 6.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#f3 {
+  background-image: url("Photos/aeroklubi 7.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#b3 {
   background-image: url("Photos/aeroklubi 8.jpg");
   background-size: contain;
   background-repeat: no-repeat;
+}
+
+#f4 {
+  background-image: url("Photos/aeroklubi 9.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#b4 {
+  background-image: url("Photos/aeroklubi 10.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#f5 {
+  background-image: url("Photos/aeroklubi 11.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#b5 {
+  background-image: url("Photos/aeroklubi 12.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.intro {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  height: 70vh;
+}
+
+.homeicon {
+  color: green;
 }
