@@ -10,6 +10,8 @@ const paper5 = document.querySelector("#p5");
 
 prevBtn.addEventListener("click", goPrevPage);
 nextBtn.addEventListener("click", goNextPage);
+prevBtn.addEventListener("keyleft", goPrevPage);
+nextBtn.addEventListener("keyright", goNextPage);
 
 let currentLocation = 1;
 let numOfPapers = 5;
